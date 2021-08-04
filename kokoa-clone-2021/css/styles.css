@@ -8,6 +8,8 @@
 @import "uesr-component.css";
 @import "badge.css";
 @import "find.css";
+@import "icon-row.css";
+@import "more.css";
 body {
   color: #2f363e;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
