@@ -88,3 +88,23 @@
   right: 10px;
   font-size: 14px;
 }
+
+@keyframes heartBeat {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(1.6);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+
+.open-post__heart:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
